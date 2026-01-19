@@ -41,7 +41,7 @@ Het programma kent een ambitieuze tijdlijn. De bij het programma betrokken lever
 ![Tijdlijn van het GUPZ programma](/assets/timeline.jpg)
 
 ## Ambities open-GUPZ
-Binnen het programmaonderdeel 'open-GUPZ' werken de betrokken PARIS leveranciers en de GUPZ organisatie samen aan de ontwikkeling van (open specificaties en tools voor) een FHIR gebaseerd dataplatform voor gegevensuitwisseling in de paramedische zorg. Door gezamenlijke ontwikkeling van specificaties en waar mogelijk ook software, wordt versnelling bereikt bij de realisatie van de doelen van het programma GUPZ. Gezamenlijk ontwikkelde specificaties en software worden beheerd in de 'open-GUPZ' Github repository.
+Binnen het programmaonderdeel 'open-GUPZ' werken de betrokken PARIS leveranciers en de GUPZ organisatie samen aan de ontwikkeling van (open specificaties en tools voor) een FHIR gebaseerd dataplatform voor gegevensuitwisseling en databeschikbaarheid in de paramedische zorg. Door gezamenlijke ontwikkeling van specificaties en waar mogelijk ook software, wordt versnelling bereikt bij de realisatie van de doelen van het programma GUPZ. Gezamenlijk ontwikkelde specificaties en software worden beheerd in de 'open-GUPZ' Github repository.
 
 open-GUPZ heeft ambities op drie gebieden:
 
@@ -143,7 +143,7 @@ PARIS leveranciers willen de complexiteit van de door hen ontwikkelde systemen b
  Door open innovatie en samenwerking kunnen complexe componten van het dataplatform gezamenlijk worden gespecificeerd en/ of ontwikkeld. 
 
 ## Just enough architecture
-open-GUPZ ontwikkelt software archtecture patterns met als doel om verschillen bij de implementatie van standaarden te voorkomen of beperken. Het detailniveau van de ontwikkelde architectuur is precies voldoende voor dat doen, en niet meer dan dat. Teveel detail zal de implementatievrijheid van PARIS leveranciers en andere stakeholders onnodig beperken.
+open-GUPZ ontwikkelt software archtecture patterns met als doel om verschillen bij de implementatie van standaarden te voorkomen of beperken. Het detailniveau van de ontwikkelde architectuur is precies voldoende voor dat doel, en niet meer dan dat. Teveel detail zal de implementatievrijheid van PARIS leveranciers en andere stakeholders onnodig beperken.
 
 ## Implementatievrijheid 
 PARIS leveranciers streven naar implementatievrijheid. Dat wil zeggen dat open-GUPZ zoveel mogelijk ontwikkelplatform en -taal agnostische specificaties en patterns zal bevatten. Eventuele opensource implementaties kunnen dienen als referentie-implementatie. 
@@ -205,7 +205,7 @@ De  Network and Information Security Directive 2 (NIS2), in Nederland geïmpleme
 ## Niet functionele eisen op het gebied van databeschikbaarheid en gegevensuitwisseling
 In het zogenaamde [FHIR besluit](https://open.overheid.nl/documenten/ronl-72d9d941c7ee7ae2c58c236290e152b22939448d/pdf) is bepaald dat FHIR STU3/ zibs2027 en FHIR R4/zibs2020 dienen te worden gebruikt als uitwisselingsstandaarden. De European Health Data Space (EHDS) vereist FHIR R4 en europese core-profiles. Voor (de architectuur van) het dataplatform voor de paramedische zorg betekent dit dat uiteindelijk meerdere FHIR versies ondersteund zullen moeten worden. Zie ook [Standaarden](#standaarden)
 
-In het kader van WEGIZ worden specifieke eektronische gegevensuitwisselingen verplicht gesteld en genormeerd. Op dit moment bestaat geen verplichting voor gegevensuitwisselingen die van toepassing zijn op de paramedische zorg.
+In het kader van WEGIZ worden specifieke elektronische gegevensuitwisselingen verplicht gesteld en genormeerd. Op dit moment bestaat geen verplichting voor gegevensuitwisselingen die van toepassing zijn op de paramedische zorg.
 
 ## Grondslag voor het delen van gegevens
 Voor het delen van gegevens is een grondslag nodig. Vaak wordt hierbij gedacht aan nadrukkelijke toestemming, zoals vereist vanuit de WABVPZ in het geval van een uitwisselingssysteem. Toestemming is echter lang niet altijd noodzakelijk. De [Factsheet toestemmingen](https://www.knmp.nl/sites/default/files/2021-12/factsheet-toestemmingen.pdf) van het ministerie van VWS geeft duidelijkheid over wanneer toestemming wel en niet vereist is, en over de vorm van de vereiste toestemming. Onder de European Health Data Space (EHDS) verandert de toestemmingsvereiste per 2027 in een recht op opt-out en een recht op toegangsbeperking van zorgverleners. Hoe deze rechten in de Nederlandse situatie zullen worden geïmplementeerd is nog grotendeels onduidelijk. Zie ook de brief aan de kamer betreffende [Opt-out EHDS en andere toezeggingen](https://open.overheid.nl/documenten/2efc8606-a4f0-4279-a2d2-2dc4fa31049a/file).
@@ -225,7 +225,7 @@ Het [Landelijk Dekkend Netwerk (LDN)](https://www.datavoorgezondheid.nl/landelij
 ## CumuluZ
 De [Stichting CumuluZ zorgdata](https://www.cumuluz.org/) richt zich op de eenduidige ontsluiting en federatie van data uit zorg informatie systemen voor primair en secundair gebruik. CumuluZ wordt door VWS gezien als data integratieplatform binnen het LDN, met als belangrijkste taken bronontsluiting en federatie van data uit verschillende bronnen. Het dataplatform voor de paramedische zorg zal dienst doen als eenduidig koppelvlak voor een CumuluZ connector voor de paramedische zorg.
 
-## Electronic Health Data Space (is toch European Health Data Space)
+## European Health Data Space
 De European Health Data Space (EHDS) is een europese verordening die zich richt op verplichte databeschikbaarheid voor primair en secundair gebruik en pp versterking van de rechten van de patiënt door introductie van een opt-out en toegangsbeperking. De EHDS bevat regelgeving op grond waarvan leveranciers van de Europese markt geweerd kunnen worden en onder andere de verplichting tot het aanbieden van (FHIR R4) API's. Het dataplatform helpt PARIS leveranciers om voorbereid te zijn op de EHDS.
 
 
