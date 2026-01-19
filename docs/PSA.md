@@ -43,7 +43,7 @@ Het programma kent een ambitieuze tijdlijn. De bij het programma betrokken lever
 ## Ambities open-GUPZ
 Binnen het programmaonderdeel 'open-GUPZ' werken de betrokken PARIS leveranciers en de GUPZ organisatie samen aan de ontwikkeling van (open specificaties en tools voor) een FHIR gebaseerd dataplatform voor gegevensuitwisseling in de paramedische zorg. Door gezamenlijke ontwikkeling van specificaties en waar mogelijk ook software, wordt versnelling bereikt bij de realisatie van de doelen van het programma GUPZ. Gezamenlijk ontwikkelde specificaties en software worden beheerd in de 'open-GUPZ' Github repository.
 
-Open-GUPZ heeft ambities op drie gebieden:
+open-GUPZ heeft ambities op drie gebieden:
 
 ### Waarde voor eindgebruikers die opweegt tegen de investeringen:
 - Verlagen van de administratieve lasten voor behandelaars waardoor meer tijd overblijft voor de patient
@@ -80,10 +80,10 @@ Het programmaonderdeel 'open-GUPZ' levert ten minste de volgende eindproducten:
 - De publieke open-GUPZ github repository
 
 # Organisatie en stakeholders
-Open-GUPZ is een initiatief van het GUPZ-programma. 
+open-GUPZ is een initiatief van het GUPZ-programma. 
 
 ## Projectorganisatie: dit vraagt nog verdere uitwerking
-Open-GUPZ kent drie 'ringen':
+open-GUPZ kent drie 'ringen':
 - Een koplopersgroep. Dit betreft de leveranciers die de open-GUPZ specificaties gezamenlijk ontwikkelen en als eerste implementeren. Deze leveranciers hebben 'write' permissies op de open-GUPZ repository en dragen actief bij aan de inhoud van de open-GUPZ repository.
 - Een tweede ring. Dit betreft een groep leveranciers die de open-GUPZ specificaties in tweede instantie implementeren. Deze leveranciers hebben uitsluitend'read' permissies op de github repositories en kunnen issues melden.
 - Een buitenring. Dit betreft iedereen die niet in de koplopersgroep of tweede ring valt.
@@ -98,10 +98,10 @@ Virtuele en fysieke bijeenkomsten worden periodiek verzorgd vanuit het programma
 >Saskia T...zullen we deze samen oppakken?
 
 # Uitgangspunten en principes
-Open-GUPZ hanteert de volgende uitgangspunten en principes:
+open-GUPZ hanteert de volgende uitgangspunten en principes:
 
 ## Gelijk speelveld
-Open-GUPZ wil een bijdrage leveren aan een goed functionerende markt voor zorg-ict in de paramedische sector. Dit betekent dat open-GUPZ wil voorkomen dat paramedische praktijken zich gedwongen zien om diensten en systemen als 'totaaloplossing' af te nemen van één leverancier, of enkele leveranciers in een vast samenwerkingsverband, en dat overstapkosten van diensten of systemen beperkt, transparent en voorspelbaar blijven. In de praktijk betekent dit vooral:
+open-GUPZ wil een bijdrage leveren aan een goed functionerende markt voor zorg-ict in de paramedische sector. Dit betekent dat open-GUPZ wil voorkomen dat paramedische praktijken zich gedwongen zien om diensten en systemen als 'totaaloplossing' af te nemen van één leverancier, of enkele leveranciers in een vast samenwerkingsverband, en dat overstapkosten van diensten of systemen beperkt, transparent en voorspelbaar blijven. In de praktijk betekent dit vooral:
 - Vrije keuze van een PARIS. Vervanging van het PARIS moet mogelijk zijn zonder dat ook de Dienstverlener Zorgaanbieder (DVA), het Verwijsplatform, het Netwerk Informatie Systeem en/ of andere op het PARIS aangesloten toepassingen voor primair of secundair gebruik moeten worden worden vervangen. Vervanging van het PARIS heeft een voorspelbare (financiele) impact.
 - Vrije keuze van de Dienstverlener Zorgaanbieder (DVA). Vervanging van de DVA moet mogelijk zijn zonder vervanging van het PARIS en met een voorspelbare (financiële) impact
 - Vrije keuze van Netwerk Informatiesysteem (NIS). Vervanging van het NIS moet mogelijk zijn zonder vervanging van het PARIS en met een voorspelbare (financiële) impact
@@ -115,10 +115,10 @@ Het uitgangspunt 'gelijk speelveld' wordt bereikt doordat de bij open-GUPZ aange
 - Het hanteren van transparante API-aansluitvoorwaarden die voldoen aan de Nictiz 'API requirements for Dutch Healthcare', en dan met name de categorie 'API agreements'
 
 ## Gebruik van open standaarden
-Open-GUPZ ontwikkelt een lijst van [pas toe of leg uit -standaarden](/docs/standards/Pas-toe-leg-uit-standaarden.md) voor de ontwikkeling van een dataplatform voor de paramedische zorg. Het gebruik van open standaarden bevordert de interoperabiliteit en daarmee de communicatie en samenwerking tussen verschillende zorginformatiesystemen en -applicaties. Het gebruik van open standaarden is daarmee een belangrijke voorwaarde voor het creeren van een gelijk speelveld. 'Pas toe of leg uit' -standaarden zullen worden gebruikt op alle niveau's van het Nictiz interoperabiliteitsmodel.
+open-GUPZ ontwikkelt een lijst van [pas toe of leg uit -standaarden](/docs/standards/Pas-toe-leg-uit-standaarden.md) voor de ontwikkeling van een dataplatform voor de paramedische zorg. Het gebruik van open standaarden bevordert de interoperabiliteit en daarmee de communicatie en samenwerking tussen verschillende zorginformatiesystemen en -applicaties. Het gebruik van open standaarden is daarmee een belangrijke voorwaarde voor het creeren van een gelijk speelveld. 'Pas toe of leg uit' -standaarden zullen worden gebruikt op alle niveau's van het Nictiz interoperabiliteitsmodel.
 
 ## Gebruik van openbare architecture patterns en implementatieprofielen
-Open-GUPZ ontwikkelt [software architecture patterns](/docs/archtecture) en implementatieprofielen als blauwdruk voor de implementatie van een dataplatform voor de paramedische zorg. Gebruik van architecture patterns en implementatieprofielen voorkomt of beperkt leverancier-specifieke implementatie van de verplichte standaarden en het ontstaan van monolitische 'totaaloplossingen'. Het gebruik van architecture patterns en implementatieprofielen is daarmee een belangrijke voorwaarde voor het creeren van een gelijk speelveld. 
+open-GUPZ ontwikkelt [software architecture patterns](/docs/archtecture) en implementatieprofielen als blauwdruk voor de implementatie van een dataplatform voor de paramedische zorg. Gebruik van architecture patterns en implementatieprofielen voorkomt of beperkt leverancier-specifieke implementatie van de verplichte standaarden en het ontstaan van monolitische 'totaaloplossingen'. Het gebruik van architecture patterns en implementatieprofielen is daarmee een belangrijke voorwaarde voor het creeren van een gelijk speelveld. 
 
 ## Open innovatie en samenwerking 
 PARIS leverenciers willen samenwerken, onderling en met andere stakeholders, en gezamenlijk de ideeen, technologieen en kennis ontwikkelen die nodig is voor de realisatie van een state of the art dataplatform voor de paramedische zorg. Alles dat wordt ontwikkeld wordt publiek gedeeld in De open-GUPZ repository en website.
@@ -143,7 +143,7 @@ PARIS leveranciers willen de complexiteit van de door hen ontwikkelde systemen b
  Door open innovatie en samenwerking kunnen complexe componten van het dataplatform gezamenlijk worden gespecificeerd en/ of ontwikkeld. 
 
 ## Just enough architecture
-Open-GUPZ ontwikkelt software archtecture patterns met als doel om verschillen bij de implementatie van standaarden te voorkomen of beperken. Het detailniveau van de ontwikkelde architectuur is precies voldoende voor dat doen, en niet meer dan dat. Teveel detail zal de implementatievrijheid van PARIS leveranciers en andere stakeholders onnodig beperken.
+open-GUPZ ontwikkelt software archtecture patterns met als doel om verschillen bij de implementatie van standaarden te voorkomen of beperken. Het detailniveau van de ontwikkelde architectuur is precies voldoende voor dat doen, en niet meer dan dat. Teveel detail zal de implementatievrijheid van PARIS leveranciers en andere stakeholders onnodig beperken.
 
 ## Implementatievrijheid 
 PARIS leveranciers streven naar implementatievrijheid. Dat wil zeggen dat open-GUPZ zoveel mogelijk ontwikkelplatform en -taal agnostische specificaties en patterns zal bevatten. Eventuele opensource implementaties kunnen dienen als referentie-implementatie. 
@@ -152,10 +152,10 @@ PARIS leveranciers streven naar implementatievrijheid. Dat wil zeggen dat open-G
 Bij de ontwikkeling van een dataplatform voor de paramedische zorg worden alleen componenten ontwikkeld die niet opensource of commercieel, tegen een redelijk tarief, beschikbaar zijn. Make, join or buy beslissingen worden gezamenlijk gemaakt en gedocumenteerd.
 
 ## Privacy by design
-Open-GUPZ hanteert de 'privacy by design ontwerpfilosofie', die vereist dat privacybescherming vanaf het begin af aan meegenomen wordt bij het ontwerpen en bouwen van nieuwe systemen. Concreet betekent dit dat op de 'privacy ontwerp strategieën' uit [Het blauwe boekje](https://www.cs.ru.nl/~jhh/blauwe-boekje.html) zullen worden toegepast op het ontwerp van het dataplatform voor de paramedische zorg.
+open-GUPZ hanteert de 'privacy by design ontwerpfilosofie', die vereist dat privacybescherming vanaf het begin af aan meegenomen wordt bij het ontwerpen en bouwen van nieuwe systemen. Concreet betekent dit dat op de 'privacy ontwerp strategieën' uit [Het blauwe boekje](https://www.cs.ru.nl/~jhh/blauwe-boekje.html) zullen worden toegepast op het ontwerp van het dataplatform voor de paramedische zorg.
 
 ## Security in depth
-Open-GUPZ hanteert de [ICT-beveiligingsrichtlijnen voor webapplicaties](https://www.ncsc.nl/ict-beveiligingsrichtlijnen-webapplicaties) van het Nationaal Cyber Security Center bij het opstellen van:
+open-GUPZ hanteert de [ICT-beveiligingsrichtlijnen voor webapplicaties](https://www.ncsc.nl/ict-beveiligingsrichtlijnen-webapplicaties) van het Nationaal Cyber Security Center bij het opstellen van:
 - Software arcitecture patterns (richtlijnen voor de laag 'webapplicaties')
 - Implementatieprofielen voor de inrichting van platformen, webservers en netwerken (richtlijnen voor de lagen 'Platform en webservers' en 'Netwerken')
 
@@ -187,9 +187,9 @@ Op grond van de AVG heeft de betrokkene recht op informatie over doel en middele
 ## Niet functionele eisen op het gebied van privacy en security
 De AVG stelt ontwerpeisen in het kader van privacy (privacy by design, privacy by default) en security (passende maatregelen). Binnen open-GUPZ worden deze eisen gedekt vanuit de principes [privacy by design](#privacy-by-design) en [security in depth](#security-in-depth).
 
-De Verordening betreffende elektronische identificatie en vertrouwensdiensten (eIDAS) stelt eisen aan de betrouwbaarheid van authenticatie door personen (zorgverleners, patiënten). Open-GUPZ gaat uit van [seperation of concerns](#Seperation-of-concerns). De authenticatie van personen is geen 'concern' van het dataplatform maar een 'concern' van de brokers die de use case specifieke process API's aanbieden.
+De Verordening betreffende elektronische identificatie en vertrouwensdiensten (eIDAS) stelt eisen aan de betrouwbaarheid van authenticatie door personen (zorgverleners, patiënten). open-GUPZ gaat uit van [seperation of concerns](#Seperation-of-concerns). De authenticatie van personen is geen 'concern' van het dataplatform maar een 'concern' van de brokers die de use case specifieke process API's aanbieden.
 
-De AVG verplicht de verwerkingsverantwoordelijke om een data protection impact assessment (DPIA) uit te voeren als een gegevensverwerking waarschijnlijk een hoog privacyrisico oplevert voor de mensen van wie de organisatie gegevens verwerkt. De verwerking van gegevens over gezondheid door een dataplatform kan worden gezien als een risicovolle verwerking waarvoor een DPIA verplicht is. Open-GUPZ ontwikkelt een  [factsheet met risico's en mitigerende maatregelen](/docs/policies/DPIA.md)ten behoeve van het uitvoeren van een DPIA.
+De AVG verplicht de verwerkingsverantwoordelijke om een data protection impact assessment (DPIA) uit te voeren als een gegevensverwerking waarschijnlijk een hoog privacyrisico oplevert voor de mensen van wie de organisatie gegevens verwerkt. De verwerking van gegevens over gezondheid door een dataplatform kan worden gezien als een risicovolle verwerking waarvoor een DPIA verplicht is. open-GUPZ ontwikkelt een  [factsheet met risico's en mitigerende maatregelen](/docs/policies/DPIA.md)ten behoeve van het uitvoeren van een DPIA.
 
 Naleving van NEN7510, NEN7513 en NEN712 is verplicht en verankerd in onder andere de WABVPZ, het besluit elektronische gegevensverwerking voor zorgaanbieders (Begz) en Regeling Gebruik Burgerservicenummer. Certificering van NEN7510 is niet verplicht, maar de Inspectie Gezondheidszorg en Jeugd (IGJ) ziet toe op naleving en verwacht dat zorgaanbieders aantoonbaar werken volgens de NEN7510 om de continuïteit en veiligheid van zorg te waarborgen. Naleving van NEN7510 is verplicht voor alle zorgaanbieders en staat los van het eventuele gebruik van een dataplatform voor de paramedische zorg. Vanuit de WABPVPZ is naleving van NEN7512 en NEN7513 verplicht. Voor deze normen bestaat geen certificering. Consequenties voor (de architectuur van) het dataplatform voor de paramedische Zorg zijn onder andere:
 
@@ -282,7 +282,7 @@ Digitale verwijzingen zullen op korte termijn worden geïmplementeerd als PUSH-b
 
 Op de langere termijn (in ieder geval na 2027) zal PUSH verkeer stapsgewijs worden vervangen door NOTFIED-PULL verkeer. Dit betekent dat het dataplatform voor de Paramedische zorg op langere termijn naast de PUSH implementatie ook:
 
-- Notificaties moet ontvangen en op basis van de notificatie bijbehorende verwijsinformatie op moet vragen bij de verwijzen
+- Notificaties moet ontvangen en op basis van de notificatie bijbehorende verwijsinformatie op moet vragen bij de verwijzer
 - Notificaties moet versturen en de bijbehorende verwijsinformatie terug moet geven bij een PULL request van de ontvanger
 
 ## Melden van directe toegang
@@ -308,7 +308,7 @@ Updates zullen op korte termijn worden geïmplementeerd als PUSH-bericht. Dit be
 
 Op de langere termijn (in ieder geval na 2027) zal PUSH verkeer stapsgewijs worden vervangen door NOTFIED-PULL verkeer. Dit betekent dat het dataplatform voor de Paramedische zorg op langere termijn naast de PUSH implementatie ook:
 
-- Notificaties moet ontvangen en op basis van de notificatie bijbehorende update op moet vragen bij de verwijzen
+- Notificaties moet ontvangen en op basis van de notificatie bijbehorende update op moet vragen bij de verwijzer
 
   
 ## Eindrapportage door de paramedicus
@@ -420,7 +420,7 @@ Daarnaast worden de feitelijke documenten (in PDF/A formaat, BASE64 encoded) bes
 # Standaarden
 
 ## Typen standaarden
-Open-GUPZ maakt onderscheid tussen twee verschillende typen standaarden:
+open-GUPZ maakt onderscheid tussen twee verschillende typen standaarden:
 
 - Use case agnostische standaarden. Dit betreft standaarden die dienen te worden toegepast ongeacht de specifieke use case. De te gebruiken standaarden worden vastgelegd in  [pas toe of leg uit -standaarden](/docs/standards/Pas-toe-leg-uit-standaarden.md)
 
@@ -429,7 +429,7 @@ Open-GUPZ maakt onderscheid tussen twee verschillende typen standaarden:
 Op korte termijn zullen uitsluitend use case specifieke standaarden worden geïmplenteerd voor de use cases die voortvloeien uit de doelstellingen van het programma GUPZ, te weten verwijzen (en ondersteunende processen) en het beschikbaarstellen van documenten en afschriften aan het PGO.
 
 ## FHIR versies
-Open-GUPZ volgt waar mogelijk het [FHIR besluit](https://open.overheid.nl/documenten/ronl-72d9d941c7ee7ae2c58c236290e152b22939448d/pdf), met een baseline van minimaal FHIR STU3 (op basis van zibs 2017) en maximaal FHIR R4 (op basis van zibs 2020). Het dataplatform voor de paramedische zorg zal op korte termijn (periode tot in ieder geval eind 2027) alleen FHIR STU3 ondersteunen, omdat de te ondersteunen use cases uitsluitend gebruik maken van FHIR STU3. Op termijn zal geleidelijk worden overgestapt op FHIR R4. Dit betekent dat het dataplatform voor de paramedische zorg uiteindelijk minimaal twee FHIR versies tegelijkertijd dient te ondersteunen.
+open-GUPZ volgt waar mogelijk het [FHIR besluit](https://open.overheid.nl/documenten/ronl-72d9d941c7ee7ae2c58c236290e152b22939448d/pdf), met een baseline van minimaal FHIR STU3 (op basis van zibs 2017) en maximaal FHIR R4 (op basis van zibs 2020). Het dataplatform voor de paramedische zorg zal op korte termijn (periode tot in ieder geval eind 2027) alleen FHIR STU3 ondersteunen, omdat de te ondersteunen use cases uitsluitend gebruik maken van FHIR STU3. Op termijn zal geleidelijk worden overgestapt op FHIR R4. Dit betekent dat het dataplatform voor de paramedische zorg uiteindelijk minimaal twee FHIR versies tegelijkertijd dient te ondersteunen.
 
 ## Standaarden specifiek voor verwijzen
 Het dataplatform voor de paramedische zorg zal op korte termijn (periode tot in ieder geval eind 2027) de [FHIR STU3 specificaties van ZorgDomein](https://integrator.zorgdomein.com/fhir-specs/) implementeren ter ondersteuning van het verwijzproces. 
@@ -470,12 +470,12 @@ Dit patroon wordt verder uitgewerkt in [Sync-agent-pattern.md](/docs/architectur
 
  
 # Privacy en Informatiebeveiliging
-Open-GUPZ gaat uit van [privacy by design](#privacy-by-design) en [security in depth](security-in-depth) en borgt de onder die principes en uitgangspunten beschreven richtlijnen.
+open-GUPZ gaat uit van [privacy by design](#privacy-by-design) en [security in depth](security-in-depth) en borgt de onder die principes en uitgangspunten beschreven richtlijnen.
 
 Overige specifieke maatregelen zijn:
 
 ## Beveiliging van netwerkverker
-Open-GUPZ vereist mutual TLS (mTLS) verbindingen tussen het dataplatform voor de paramedische zorg en aangesloten externe systemen (waaronder DVA, Verwijsplatform en NIS). TLS verbindingen dienen te voldoen aan de [ICT-beveiligingsrichtlijnen voor TLS](https://www.ncsc.nl/transport-layer-security-tls/v21-tls). Open-GUPZ vereist dat TLS instellingen minimaal voldoen aan veiligheidniveau 'Voldoende'. In het geval van veiligheidniveau 'Voldoende' dient de beheerder van het dataplatform aan te geven op welke wijze en binnen welke termijn de instelling zal voldoen aan veiligheidsniveau 'Goed'.
+open-GUPZ vereist mutual TLS (mTLS) verbindingen tussen het dataplatform voor de paramedische zorg en aangesloten externe systemen (waaronder DVA, Verwijsplatform en NIS). TLS verbindingen dienen te voldoen aan de [ICT-beveiligingsrichtlijnen voor TLS](https://www.ncsc.nl/transport-layer-security-tls/v21-tls). open-GUPZ vereist dat TLS instellingen minimaal voldoen aan veiligheidniveau 'Voldoende'. In het geval van veiligheidniveau 'Voldoende' dient de beheerder van het dataplatform aan te geven op welke wijze en binnen welke termijn de instelling zal voldoen aan veiligheidsniveau 'Goed'.
 
 ## Authenticatie op application niveau
 Authenticatie van het aangesloten systeem (zoals een DVA, Verwijsplatform of NIS) en de eindgebruiker vindt plaats aan de hand van JSON Web Tokens (JWT) op basis van de [ZorgDomein specificatie voor application level security](https://integrator.zorgdomein.com/fhir-specs/security/#application-level-security-json-web-tokens), aangevuld met het BSN van de patiënt waarvoor het verzoek (FHIR request) wordt gedaan.
